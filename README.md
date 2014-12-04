@@ -5,5 +5,5 @@ This project demo's using [Spring Boot](http://projects.spring.io/spring-boot/) 
 
 https://kuali-spring-actuator.herokuapp.com/api/v1/devops/endpoints/filter 
 
-This is a simple read-only API that displays internal metrics and information about the application (system properties, memory consumption, environment variables, etc) 
+This is a read-only API that displays internal metrics and information about the application (system properties, memory consumption, environment variables, etc) 
 
