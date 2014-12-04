@@ -8,4 +8,4 @@ info:
     version: ${project.version}
   
 server:
-  context-path: /v${project.version.major}
+  context-path: /api/v${project.version.major}
