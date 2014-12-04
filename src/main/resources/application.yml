@@ -1,0 +1,11 @@
+management:
+  context-path: /devops
+  
+info:
+  project:
+    groupId: ${project.groupId}
+    artifactId: ${project.artifactId}
+    version: ${project.version}
+  
+server:
+  context-path: /v${project.version}
