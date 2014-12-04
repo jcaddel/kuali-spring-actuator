@@ -1,7 +1,6 @@
 package hello;
 
-import static com.fasterxml.jackson.databind.SerializationFeature.INDENT_OUTPUT;
-import static org.kuali.common.core.json.jackson.ObjectMappers.buildDefaultMapper;
+import static org.kuali.common.core.json.jackson.ObjectMappers.buildDefaultObjectMapper;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,8 +13,7 @@ public class JsonConfig {
 
     @Bean
     public MappingJackson2HttpMessageConverter jacksonConverter() {
-        ObjectMapper mapper = buildDefaultMapper();
-        mapper.configure(INDENT_OUTPUT, true); // this is a synonym for 'pretty print'
+        ObjectMapper mapper = buildDefaultObjectMapper();
         MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter();
         converter.setObjectMapper(mapper);
         return converter;
