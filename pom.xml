@@ -71,16 +71,16 @@
 
   <repositories>
     <repository>
-      <id>spring-releases</id>
-      <name>Spring Releases</name>
-      <url>https://repo.spring.io/libs-release</url>
+      <id>kuali-public</id>
+      <name>Kuali Public</name>
+      <url>http://nexus.kuali.org/content/groups/public/</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
-      <id>spring-releases</id>
-      <name>Spring Releases</name>
-      <url>https://repo.spring.io/libs-release</url>
+      <id>kuali-public</id>
+      <name>Kuali Public</name>
+      <url>http://nexus.kuali.org/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
