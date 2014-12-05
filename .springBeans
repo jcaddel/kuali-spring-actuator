@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:org.kuali.common.devops.Application</config>
+		<config>java:org.kuali.common.react.Application</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

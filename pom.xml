@@ -19,7 +19,7 @@
     <tomcat.version>8.0.15</tomcat.version>
     <spring.version>4.1.2.RELEASE</spring.version>
     <guava.version>18.0</guava.version>
-    <kuali-core.version>1.0.16</kuali-core.version>
+    <kuali-core.version>1.0.17</kuali-core.version>
     <project.version.major>1</project.version.major>
   </properties>
 
