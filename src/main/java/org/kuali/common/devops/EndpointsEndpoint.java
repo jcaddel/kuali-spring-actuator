@@ -1,6 +1,6 @@
-package hello;
+package org.kuali.common.devops;
 
-import static hello.Endpoints.sortedEndpoints;
+import static org.kuali.common.devops.Endpoints.sortedEndpoints;
 
 import java.util.List;
 

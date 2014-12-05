@@ -1,4 +1,4 @@
-package hello;
+package org.kuali.common.devops;
 
 import static org.kuali.common.core.json.jackson.ObjectMappers.buildDefaultObjectMapper;
 

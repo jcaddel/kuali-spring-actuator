@@ -1,4 +1,4 @@
-package hello;
+package org.kuali.common.devops;
 
 import static org.kuali.common.core.net.NetworkInterface.getCachedNetworkInterfaces;
 import static org.kuali.common.util.base.Exceptions.illegalState;

@@ -1,4 +1,4 @@
-package hello;
+package org.kuali.common.devops;
 
 import static org.kuali.common.util.base.Precondition.checkNotBlank;
 import static org.kuali.common.util.base.Precondition.checkNotNull;

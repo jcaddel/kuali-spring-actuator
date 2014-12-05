@@ -1,10 +1,10 @@
-package hello;
+package org.kuali.common.devops;
 
 import static com.google.common.base.Optional.fromNullable;
 import static com.google.common.base.Predicates.and;
 import static com.google.common.collect.Iterables.filter;
 import static com.google.common.collect.Lists.transform;
-import static hello.Endpoints.sortedEndpoints;
+import static org.kuali.common.devops.Endpoints.sortedEndpoints;
 import static org.kuali.common.util.base.Precondition.checkNotNull;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 

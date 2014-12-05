@@ -1,4 +1,4 @@
-package hello;
+package org.kuali.common.devops;
 
 import static org.kuali.common.core.net.InetAddress.buildLocalHost;
 import static org.kuali.common.util.base.Exceptions.illegalState;

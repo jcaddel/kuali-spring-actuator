@@ -1,4 +1,4 @@
-package hello;
+package org.kuali.common.devops;
 
 import static com.google.common.collect.Ordering.from;
 
