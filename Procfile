@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/kuali-spring-actuator.jar
+web: java -Dserver.port=$PORT -Dfile.encoding=UTF-8 $JAVA_OPTS -jar target/kuali-spring-actuator.jar
