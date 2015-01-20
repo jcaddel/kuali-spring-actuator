@@ -7,3 +7,8 @@ https://kuali-spring-actuator.herokuapp.com/api/v1/devops/endpoints/filter
 
 This is a read-only API that displays internal metrics and information about the application (system properties, memory consumption, environment variables, etc) 
 
+Deploy to Heroku
+-------
+```
+git push heroku master
+```
