@@ -1,11 +1,11 @@
 package org.kuali.common.devops;
 
-import static org.kuali.common.core.net.InetAddress.buildLocalHost;
-import static org.kuali.common.util.base.Exceptions.illegalState;
+import static org.kuali.common.jute.base.Exceptions.illegalState;
+import static org.kuali.common.jute.net.InetAddress.buildLocalHost;
 
 import java.io.IOException;
 
-import org.kuali.common.core.net.InetAddress;
+import org.kuali.common.jute.net.InetAddress;
 import org.springframework.boot.actuate.endpoint.AbstractEndpoint;
 import org.springframework.stereotype.Component;
 

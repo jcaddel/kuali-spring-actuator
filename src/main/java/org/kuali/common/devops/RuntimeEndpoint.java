@@ -1,6 +1,6 @@
 package org.kuali.common.devops;
 
-import org.kuali.common.core.system.VirtualRuntime;
+import org.kuali.common.jute.runtime.VirtualRuntime;
 import org.springframework.boot.actuate.endpoint.AbstractEndpoint;
 import org.springframework.stereotype.Component;
 

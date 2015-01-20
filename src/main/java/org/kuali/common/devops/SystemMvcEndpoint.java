@@ -1,13 +1,13 @@
 package org.kuali.common.devops;
 
-import static org.kuali.common.util.base.Precondition.checkNotNull;
+import static org.kuali.common.jute.base.Precondition.checkNotNull;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 import java.util.Properties;
 
-import org.kuali.common.core.system.Java;
-import org.kuali.common.core.system.OperatingSystem;
-import org.kuali.common.core.system.User;
+import org.kuali.common.jute.system.Java;
+import org.kuali.common.jute.system.OperatingSystem;
+import org.kuali.common.jute.system.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter;
 import org.springframework.stereotype.Component;

@@ -1,7 +1,7 @@
 package org.kuali.common.devops;
 
-import static org.kuali.common.util.base.Precondition.checkNotBlank;
-import static org.kuali.common.util.base.Precondition.checkNotNull;
+import static org.kuali.common.jute.base.Precondition.checkNotBlank;
+import static org.kuali.common.jute.base.Precondition.checkNotNull;
 import static org.springframework.web.servlet.support.ServletUriComponentsBuilder.fromCurrentServletMapping;
 
 import org.springframework.boot.actuate.endpoint.Endpoint;

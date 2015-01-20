@@ -18,8 +18,7 @@
     <java.version>1.8</java.version>
     <tomcat.version>8.0.15</tomcat.version>
     <spring.version>4.1.2.RELEASE</spring.version>
-    <guava.version>18.0</guava.version>
-    <kuali-core.version>1.0.17</kuali-core.version>
+    <kuali-jute.version>1.0.1</kuali-jute.version>
     <project.version.major>1</project.version.major>
   </properties>
 
@@ -33,14 +32,9 @@
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>${guava.version}</version>
-    </dependency>
-    <dependency>
       <groupId>org.kuali.common</groupId>
-      <artifactId>kuali-core</artifactId>
-      <version>${kuali-core.version}</version>
+      <artifactId>kuali-jute</artifactId>
+      <version>${kuali-jute.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>

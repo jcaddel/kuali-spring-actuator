@@ -1,14 +1,13 @@
 package org.kuali.common.devops;
 
-import static org.kuali.common.core.net.NetworkInterface.getCachedNetworkInterfaces;
-import static org.kuali.common.util.base.Exceptions.illegalState;
-
-import java.io.IOException;
 import java.util.List;
 
-import org.kuali.common.core.net.NetworkInterface;
+import org.kuali.common.jute.net.NetworkInterface;
+import org.kuali.common.jute.net.NetworkInterfacesProvider;
 import org.springframework.boot.actuate.endpoint.AbstractEndpoint;
 import org.springframework.stereotype.Component;
+
+import com.google.common.collect.ImmutableList;
 
 @Component
 public class NetworkInterfacesEndpoint extends AbstractEndpoint<List<NetworkInterface>> {
@@ -17,13 +16,11 @@ public class NetworkInterfacesEndpoint extends AbstractEndpoint<List<NetworkInte
         super("nics");
     }
 
+    private final ImmutableList<NetworkInterface> nics = ImmutableList.copyOf(new NetworkInterfacesProvider().get());
+
     @Override
     public List<NetworkInterface> invoke() {
-        try {
-            return getCachedNetworkInterfaces();
-        } catch (IOException e) {
-            throw illegalState(e);
-        }
+        return nics;
     }
 
 }

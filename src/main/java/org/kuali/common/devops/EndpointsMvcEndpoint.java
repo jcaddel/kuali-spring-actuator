@@ -5,7 +5,7 @@ import static com.google.common.base.Predicates.and;
 import static com.google.common.collect.Iterables.filter;
 import static com.google.common.collect.Lists.transform;
 import static org.kuali.common.devops.Endpoints.sortedEndpoints;
-import static org.kuali.common.util.base.Precondition.checkNotNull;
+import static org.kuali.common.jute.base.Precondition.checkNotNull;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 import java.util.List;
